@@ -2,13 +2,12 @@ import React from 'react';
 import TextArea from './TextArea';
 import Button from './Button';
 
-
 class App extends React.Component {
 	constructor(props) {
 		super(props);
 
 		this.text = '';
-		 this.state = {selected: null};
+		this.state = {selected: null};
 
 		this._textChanged = this._textChanged.bind(this);
 		this._buttonClicked = this._buttonClicked.bind(this);

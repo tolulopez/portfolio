@@ -1,4 +1,5 @@
 const path = require('path');
+
 module.exports = {
   entry: __dirname + '/src/index.js',
   output: {
@@ -7,7 +8,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
+      { test: /\.html$/, loader: "file?name=[name].[ext]" },
+      { test: /\.js$/, exclude: /node_modules/, loaders: ["babel-loader"] },
     ]
   }
 }
