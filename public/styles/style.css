@@ -1,0 +1,53 @@
+body {
+  background-color: #4475c4;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 0 0 20px black;
+}
+.box {
+  width: 50%;
+  height: 280px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px black;
+}
+
+.container, h1, p {
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.textarea {
+  width: 75%;
+  height: 100px;
+}
+
+.button {
+  position: inline block;
+  width: 40%;
+  height: 30px;
+  border: none;
+  background-color: orange;
+  transform: scale(1);/*original size of the button */
+  transition: background-color 300ms, transform 300ms;/*animation tell the browser what you want to animate and how long you want it to animate for*/
+  color: white;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: green;
+  transform: scale(1.1);
+  /*enlarges button increases size by 10%*/
+}
+
+.result {
+  color: red;
+}

@@ -9776,6 +9776,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 _reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.querySelector('.container')
 //reference the class here
 );
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
 
 /***/ }),
 /* 83 */
@@ -22477,11 +22486,13 @@ var App = function (_React$Component) {
 	}, {
 		key: 'render',
 		value: function render() {
+			//location.search.substring(6, location.search.length).split(',')
 			return _react2.default.createElement(
 				'div',
 				null,
-				_react2.default.createElement(_TextArea2.default, { onChange: this._textChanged }),
-				_react2.default.createElement(_Button2.default, { onClick: this._buttonClicked }),
+				_react2.default.createElement(_TextArea2.default, { onChange: this._textChanged, className: 'textarea' }),
+				_react2.default.createElement('br', null),
+				_react2.default.createElement(_Button2.default, { onClick: this._buttonClicked, className: 'button' }),
 				_react2.default.createElement(
 					'h2',
 					null,
@@ -22495,7 +22506,21 @@ var App = function (_React$Component) {
 	return App;
 }(_react2.default.Component);
 
-exports.default = App;
+var _default = App;
+exports.default = _default;
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(App, 'App', '/Users/tolu.shobande/pdp/random_person/src/components/App.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/pdp/random_person/src/components/App.js');
+}();
+
+;
 
 /***/ }),
 /* 185 */
@@ -22541,7 +22566,21 @@ var TextArea = function (_React$Component) {
   return TextArea;
 }(_react2.default.Component);
 
-exports.default = TextArea;
+var _default = TextArea;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(TextArea, 'TextArea', '/Users/tolu.shobande/pdp/random_person/src/components/TextArea.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/pdp/random_person/src/components/TextArea.js');
+}();
+
+;
 
 /***/ }),
 /* 186 */
@@ -22591,7 +22630,21 @@ var Button = function (_React$Component) {
   return Button;
 }(_react2.default.Component);
 
-exports.default = Button;
+var _default = Button;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Button, 'Button', '/Users/tolu.shobande/pdp/random_person/src/components/Button.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/pdp/random_person/src/components/Button.js');
+}();
+
+;
 
 /***/ })
 /******/ ]);
