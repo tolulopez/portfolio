@@ -69,7 +69,7 @@ class App extends React.Component {// this is the root of the app
     // window.location.search = '?names=' + this.state.text;
 		// this.text = event.target.value;//(regular variable nothing is happening) this method gives it a new value when targetted
     this.setState({text: event.target.value}, function() {
-      this._updateUrlQueryString();//need a callback
+      this._updateUrlQueryString();//need a callback 
     }) //once the state(variable) is changed rerender happens */
 	}
 
