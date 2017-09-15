@@ -36,15 +36,16 @@ class App extends React.Component {// this is the root of the app
     return (
       <div className="box">
         <p>Please enter your team members names comma seperated, then hit the random genator button</p>
-        <TextArea onChange={ this._textChanged } className={'textarea'} value = { this.state.text } />
+          <TextArea onChange={ this._textChanged } className={'textarea'} value = { this.state.text } />
         <br/>
-        <Button onClick={ this._buttonClicked } className={'button'}/>
-        <h2 className="result">{ this.state.selected } </h2>
+          <Button onClick={ this._buttonClicked } className={'button'}/>
+        <h2 className="result">{ this.state.selected }</h2>
       </div>
     );
   }
 
   _textChanged(event) {
+    event.preventDefault();
     // this._updateUrlQueryString();
     // window.location.search = '?names=' + this.state.text;
     // this.text = event.target.value;//(regular variable nothing is happening) this method gives it a new value when targetted
@@ -66,9 +67,9 @@ class App extends React.Component {// this is the root of the app
 		});
 	}
 
-  _updateUrlQueryString() {
-    window.location.search = '?names=' + this.state.text;
-  }
+  // _updateUrlQueryString() {
+  //   window.location.search = '?names=' + this.state.text;
+  // }// this causes the entire page to refresh 
 }
 
 export default App;
