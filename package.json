@@ -22,5 +22,9 @@
     "react-hot-loader": "^3.0.0-beta.6",
     "webpack": "^3.0.0-rc.1",
     "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "eslint": "^4.15.0",
+    "express": "4.16.2"
   }
 }
