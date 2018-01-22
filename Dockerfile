@@ -13,14 +13,14 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN npm run build
-
 # If you are building your code for production
 # RUN npm install --only=production
 
 # Bundle app source
 
 COPY . .
+
+RUN npm run build
 
 # Your app binds to port 8080 so you'll use the EXPOSE instruction to have it mapped by the docker daemon:
 EXPOSE 5000

@@ -5,7 +5,9 @@ module.exports = {
   output: {
     path: __dirname + '/public/js',
     filename: 'script.js',
-    publicPath: path.resolve(__dirname, '/public/')
+  },
+  devServer: {
+    port: 5000
   },
   module: {
     loaders: [
