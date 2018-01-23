@@ -1,3 +1,11 @@
 build:
   ci:
-    - docker build . -t tolutest22/portfolio:$BRANCH.BUILD_NUMBER 
+    - docker build . -t tolutest22/portfolio:$BUILD_NUMBER 
+    - docker tag tolutest22/portfolio:$BUILD_NUMBER tolutest22/portfolio:latest
+    - docker push tolutest22/portfolio:$BUILD_NUMBER
+    - docker push tolutest22/portfolio:latest
+  
+integrations:
+  hub:
+    - integrationName: dockerIntegration    
+      type: dockerRegistryLogin
