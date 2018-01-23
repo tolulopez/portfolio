@@ -7,5 +7,5 @@ build:
   
 integrations:
   hub:
-    - integrationName: dockerIntegration    
-      type: dockerCloudLogin
+    - integrationName: docker-integration    
+      type: dockerRegistryLogin
