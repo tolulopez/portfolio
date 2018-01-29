@@ -22235,9 +22235,9 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(App, 'App', '/Users/tolu.shobande/random-person/src/components/App.js');
+	__REACT_HOT_LOADER__.register(App, 'App', '/Users/tolu.shobande/portfolio/src/components/App.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/random-person/src/components/App.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/portfolio/src/components/App.js');
 }();
 
 ;
@@ -22299,9 +22299,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TextArea, 'TextArea', '/Users/tolu.shobande/random-person/src/components/TextArea.js');
+  __REACT_HOT_LOADER__.register(TextArea, 'TextArea', '/Users/tolu.shobande/portfolio/src/components/TextArea.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/random-person/src/components/TextArea.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/portfolio/src/components/TextArea.js');
 }();
 
 ;
@@ -22363,9 +22363,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Button, 'Button', '/Users/tolu.shobande/random-person/src/components/Button.js');
+  __REACT_HOT_LOADER__.register(Button, 'Button', '/Users/tolu.shobande/portfolio/src/components/Button.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/random-person/src/components/Button.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/tolu.shobande/portfolio/src/components/Button.js');
 }();
 
 ;
